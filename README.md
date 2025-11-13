@@ -42,10 +42,7 @@ cmake -GNinja ..
 ninja
 ```
 
-
-#### Building
+#### Flashing
 ```
-cmake -GNinja ..
-ninja
 sudo wlink flash ch32v307-freertos.elf
 ```
